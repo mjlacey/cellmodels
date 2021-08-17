@@ -4,11 +4,15 @@ This repository contains a framework for constructing basic models of battery ce
 
 There are several types of cell models currently defined in the `cellmodel.jl` file:
 
-`CylindricalCell` - a model for a generalised cylindrical cell, with specified diameter and height
-`PrismaticCell_JellyRoll` - a model for a generalised prismatic cell, with one or more wound jelly roll with the axis of winding parallel to the 'width' axis, and considering the tabs at the side of the cell
-`PrismaticCell_CinnamonRoll` - a model for a generalised prismatic cell, with one or more wound jelly roll with the axis of winding perpendicular to the 'width' axis, and considering the tabs at the top of the cell
-`PrismaticCell_Stacked` - a model for a stacked prismatic cell, with one or more stacked electrode assemblies, considering the tabs at the side of the cell
-`PouchCell` - a model for a stacked pouch cell of a defined number of layers.
+* `CylindricalCell` - a model for a generalised cylindrical cell, with specified diameter and height
+
+* `PrismaticCell_JellyRoll` - a model for a generalised prismatic cell, with one or more wound jelly roll with the axis of winding parallel to the 'width' axis, and considering the tabs at the side of the cell
+
+* `PrismaticCell_CinnamonRoll` - a model for a generalised prismatic cell, with one or more wound jelly roll with the axis of winding perpendicular to the 'width' axis, and considering the tabs at the top of the cell
+
+* `PrismaticCell_Stacked` - a model for a stacked prismatic cell, with one or more stacked electrode assemblies, considering the tabs at the side of the cell
+
+* `PouchCell` - a model for a stacked pouch cell of a defined number of layers.
 
 # Intentions and limitations
 
@@ -25,3 +29,5 @@ You must have Julia. The current code is tested to work with v1.5.3. If you are 
 To run this code you will also need to install the following add-on packages: `Measurements`, `Parameters`, `QuadGK`, `DataFrames`.
 
 Examples of the use of this code are given in the Jupyter notebooks included in this repository.
+
+Contributions and suggestions for further development are welcome.
